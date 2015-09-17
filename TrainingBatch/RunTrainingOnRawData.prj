@@ -1,0 +1,137 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2525615646" file="/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData.prj" location="/home/zijing.mao/Kaggle/TrainingBatch" name="RunTrainingOnRawData" preferred-package-location="/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData/for_redistribution" preferred-package-type="package.type.install" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>RunTrainingOnRawData</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>/RunTrainingOnRawData/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes>On the target computer, append the following to your LD_LIBRARY_PATH environment variable (Where {MCR_ROOT} is the directory the MCR has been installed into):&lt;br&gt; {MCR_ROOT}/runtime/glnxa64&lt;br&gt; {MCR_ROOT}/bin/glnxa64&lt;br&gt; {MCR_ROOT}/sys/os/glnxa64&lt;br&gt;{MCR_ROOT}/sys/opengl/lib/glnxa64&lt;br&gt;</param.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/RunTrainingOnRawData/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/RunTrainingOnRawData/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/RunTrainingOnRawData/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}/RunTrainingOnRawData/for_testing/.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}/RunTrainingOnRawData/for_testing/readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/RunTrainingOnRawData.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/DBN/dbnsetup.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/DBN/dbntrain.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/DBN/dbnunfoldtonn.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/DBN/rbmtrain.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/DBN/rbmup.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnapplygrads.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnbp.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nneval.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnff.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnpredict.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnsetup.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nntest.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nntrain.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/NN/nnupdatefigures.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/tests/test_example_DBN.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/util/normalize.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/util/sigm.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/util/sigmrnd.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/util/tanh_opt.m</file>
+      <file>/home/zijing.mao/Kaggle/DeepLearnToolbox-new/util/zscore.m</file>
+      <file>/home/zijing.mao/Kaggle/RunTrainScripts/TrainingDNN_Channel2.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/RunTrainingOnRawData/for_testing" name="splash.png" optional="false">/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/RunTrainingOnRawData/for_testing" name="run_RunTrainingOnRawData.sh" optional="false">/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData/for_testing/run_RunTrainingOnRawData.sh</file>
+      <file location="${PROJECT_ROOT}/RunTrainingOnRawData/for_testing" name="readme.txt" optional="true">/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/RunTrainingOnRawData/for_testing" name="RunTrainingOnRawData" optional="false">/home/zijing.mao/Kaggle/TrainingBatch/RunTrainingOnRawData/for_testing/RunTrainingOnRawData</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/share/apps/MATLAB/R2014b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>2.6.32-358.23.2.el6.x86_64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
